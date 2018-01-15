@@ -3,6 +3,8 @@ $(function () {
         items: 6,
         margin: 15,
         loop: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
         responsive: {
             0: {
                 items: 1
