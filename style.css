@@ -1,0 +1,19 @@
+.owl-carousel .item {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+    filter: grayscale(100%);
+}
+
+.owl-carousel .item:hover {
+    opacity: 1;
+    filter: grayscale(0);
+}
+
+.owl-carousel .item img {
+    width: auto;
+    max-width:100%;
+    max-height: 100%;
+}
